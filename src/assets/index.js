@@ -32,6 +32,8 @@ import logstash from "./tech/elastic-logstash.svg";
 import linkDev from "./company/linkDevelopmentLogo.png";
 import frontierZero from "./company/frontierZero-svg.svg";
 import ySolution from "./company/yackeenSolutions.png";
+import sama from "./company/sama-logo.jpeg";
+import nitaj from "./company/nitaj-capital.svg";
 
 import DigitalHippo from "./digitalhippo.png";
 import frontierZeroDashboard from "./frontierZeroDashboard.png";
@@ -71,6 +73,8 @@ export {
     logstash,
     // experience
     linkDev,
+    sama,
+    nitaj,
     frontierZero,
     ticketManagementSystem,
     ySolution,

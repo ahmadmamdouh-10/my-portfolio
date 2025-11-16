@@ -28,7 +28,9 @@ import {
     DigitalHippo,
     redis,
     ticketManagementSystem,
-    gcp
+    gcp,
+    sama,
+    nitaj,
 } from "../assets";
 
 export const navLinks = [
@@ -142,12 +144,38 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Senior Software Engineer",
+        company_name: "Nitaj Capital",
+        company_website_link: "https://www.nitajcapital.com/",
+        icon: nitaj,
+        iconBg: "#f0f0f0",
+        date: "May 2025 - Current",
+        points: [
+            "Led the development of critical backend infrastructure for a real estate fintech platform serving the Saudi Arabian market, implementing a modular monolith architecture using .NET Core, SQL Server, RabbitMQ, and Redis. Architected scalable solutions handling complex financial transactions and regulatory compliance requirements unique to Islamic real estate financing.",
+            "Spearheaded technical spikes and MVPs for critical backend components, optimizing mobile application performance through workload reduction and workflow improvements. Implemented caching strategies with Redis and asynchronous processing with RabbitMQ, reducing API response times by 60% and improving overall system throughput for high-volume real estate transactions.",
+            "Pioneered the migration of the back-office application from Angular to Next.js, developing a comprehensive Proof of Concept that demonstrated 40% improved performance and enhanced developer experience. Led the modernization effort utilizing Next.js as a Backend-for-Frontend pattern, significantly improving administrative workflow efficiency and user experience.",
+            "Enhanced CI/CD infrastructure by implementing Docker containerization and GCP deployment pipelines using GitHub Actions, reducing deployment times by 50% and establishing robust git branching strategies that improved code quality and team collaboration. Managed Agile development cycles through Jira, ensuring consistent delivery of features within sprint timelines.",
+            "Strengthened application security posture by implementing comprehensive authentication and AML (Anti-Money Laundering) compliance measures, integrating Nafath for national identity verification, Lean for credit assessment, and FaceKi for biometric authentication. These integrations ensured full regulatory compliance with Saudi financial regulations while maintaining seamless user experience.",
+        ],
+    },
+    {
+        title: "Senior Full-stack Developer .NET/Angular",
+        company_name: "Saudi Central Bank",
+        company_website_link: "https://www.sama.gov.sa/",
+        icon: sama,
+        iconBg: "#f0f0f0",
+        date: "Nov 2024 - May 2025",
+        points: [
+            "Outsourced with Link Development, and anything else is confidential"
+        ],
+    },
+    {
         title: "Software Engineer",
         company_name: "Link Development",
         company_website_link: "https://linkdevelopment.com/",
         icon: linkDev,
         iconBg: "#f0f0f0",
-        date: "Sep 2022 - Current",
+        date: "Sep 2022 - May 2025",
         points: [
             "Led the Technical Development of the Culture Web Platform, a dual‑component system comprising a Search Engine and an E‑commerce Web App designed for the Communications Ministry. Spearheaded the integration of complex search functionalities withuser‑centric e‑commerce features, significantly enhancing the digital experience for cultural content consumption.",
             "Implemented Advanced Full‑Text Search Capabilities using Elasticsearch, tailored to support auto‑correction and completion features for anonymous users, thereby improving user interaction and satisfaction. Developed content filtration systems by authors and subjects, which facilitated more accurate and relevant search results across diverse content types.",
@@ -161,7 +189,7 @@ const experiences = [
         company_website_link: "https://www.frontierzero.io/",
         icon: frontierZero,
         iconBg: "#f0f0f0",
-        date: "Mar 2024 - Current",
+        date: "Mar 2024 - Nov 2024",
         points: [
             "Developed and maintained integration services for various directory platforms including Okta, Salesforce, Jira, and so on, ensuring seamless synchronization of user data and sign‐in logs.",
             "Implemented OAuth authentication flows for secure access to third‐party APIs, including token exchange and refresh mechanisms.",
@@ -182,7 +210,7 @@ const experiences = [
         points: [
             "Led the development of the ‘3amaluna App’, a professional networking platform for a startup, implementing real‐time communication features including posts, comments, and shares. Designed group‐specific functionalities that doubled user interactions and increased daily active users by 40%.",
             "Engineered the ‘IslamicMarriage App’, developing user profiles and match‐making algorithms tailored for the Islamic community. The introduction of these features led to a 25% increase in user satisfaction and a 35% growth in the subscriber base within the first 6 months.",
-            "Designed and implemented backend infrastructure for the ‘Naseej Project’, supporting comprehensive administrative and financialoperations for local companies. This included advanced functionalities for compensation calculations and user role management, improving operational efficiency by 45%.",
+            "Designed and implemented backend infrastructure for the ‘Naseej Project’, supporting comprehensive administrative and financial operations for local companies. This included advanced functionalities for compensation calculations and user role management, improving operational efficiency by 45%.",
             "Architected the ‘Translation Agency Platform’, creating a scalable online marketplace connecting clients with freelancers. This platform facilitated over 1,000 successful job engagements within the first year, enhancing job management and user interaction capabilities.",
             "Spearheaded the development of high‐impact web applications, improving functionalities and user interface designs.",
             "Developed and implemented a CI/CD pipeline that automated testing and deployment processes, reducing manual deployment f‐forts by 40% and decreasing deployment times by 50%, thereby accelerating product delivery cycles.",
