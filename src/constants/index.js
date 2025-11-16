@@ -28,6 +28,7 @@ import {
     DigitalHippo,
     redis,
     ticketManagementSystem,
+    gcp
 } from "../assets";
 
 export const navLinks = [
@@ -110,6 +111,10 @@ const technologies = [
         icon: azure,
     },
     {
+      name: "GCP",
+      icon: gcp,
+    },
+    {
         name: "Git",
         icon: gitBash,
     },
@@ -129,10 +134,10 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    }
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // }
 ];
 
 const experiences = [

@@ -23,6 +23,7 @@ import rabbitmq from "./tech/rabbitmq.svg";
 import gitBash from "./tech/git-bash.svg";
 import gitHubAction from "./tech/github-icon-1.svg";
 import azure from "./tech/azure-2.svg";
+import gcp from "./tech/google-cloud.svg";
 import jira from "./tech/jira-1.svg";
 import postman from "./tech/postman.svg";
 import kibana from "./tech/elastic-kibana.svg";
@@ -63,6 +64,7 @@ export {
     gitBash,
     gitHubAction,
     azure,
+    gcp,
     jira,
     postman,
     kibana,
