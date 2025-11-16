@@ -54,8 +54,8 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                Mid-level Software Engineer with over four years of expertise in Microsoft Technologies including C#,
-                ASP.NET Core, SQL Server, and Azure. Proficient in the ELK Stack (Elasticsearch, Logstash, Kibana), with
+                Senior Software Engineer with over Five years of expertise in Microsoft Technologies including C#,
+                ASP.NET Core, SQL Server, Azure and GCP. Proficient in the ELK Stack (Elasticsearch, Logstash, Kibana), with
                 a proven track record of optimizing and enhancing software solutions for performance and scalability.
                 Strong understanding of the Software Development Life Cycle (SDLC) and experience working in Agile
                 environments, effectively collaborating with cross-functional teams to deliver high-quality solutions.
